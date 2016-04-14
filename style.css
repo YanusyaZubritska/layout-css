@@ -59,7 +59,7 @@ html {
     background: #fff;
     font-size: 36px;
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding: 15px 15px;
     margin: auto;
     box-shadow: 0 1px 6px 2px rgba(0,0,0,0.5);
 }
@@ -83,14 +83,16 @@ body {
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    margin: 20px 5px;
-    height: 600px;
-    width: 320px;
-    border: 2px solid #cdcdcd;  
+    margin: 20px 5px 5px 5px;
+    height: 550px;
+    width: 320px;  
     overflow: hidden;
     background: #fff;
     position: relative;
+    border: 2px solid #cdcdcd;
     border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
     overflow-y: auto;
 }
 
@@ -98,7 +100,7 @@ body {
 .doc{
     box-sizing: border-box;
     color: #fff;
-    height: 130px;
+    height: 110px;
     width: 320px;
     background: #db4437;
     text-align:left;
@@ -153,14 +155,16 @@ body {
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    margin: 20px 5px;
-    height: 600px;
+    margin: 20px 5px 5px 5px;
+    height: 550px;
     width: 320px;
     border: 2px solid #cdcdcd;  
     overflow: hidden;
     background: #fff;
     position: relative;
     border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
 }
 
 
@@ -168,7 +172,7 @@ body {
 .lin{
     box-sizing: border-box;
     color: #fff;
-    height: 130px;
+    height: 110px;
     width: 320px;
     background: #00b9e6;
     text-align:left;
@@ -222,21 +226,23 @@ body {
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    margin: 20px 5px;
-    height: 600px;
+    margin: 20px 5px 5px 5px;
+    height: 550px;
     width: 320px;
     border: 2px solid #cdcdcd;  
     overflow: hidden;
     background: #fff;
     position: relative;
     border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
 }
 
 
 .sci{
     box-sizing: border-box;
     color: #fff;
-    height: 130px;
+    height: 110px;
     width: 320px;
     background: #0f9d58;
     text-align:left;
@@ -289,13 +295,13 @@ body {
 
 
 h5{
-    font-size: 16px;
+    font-size: 13px;
     color: #aaa;
     line-height: 35px;
 }
 
 p{
-    font-size: 13px;
+    font-size: 11px;
     color: #c7c7c7;
 }
 
@@ -309,7 +315,7 @@ h4{
 footer{
     box-sizing: border-box;
     display: block;
-    height: 50px;
+    height: 45px;
 }
 
 #test{
@@ -317,6 +323,116 @@ footer{
     position: relative;
     height: ;
     width: ;
+}
+
+
+.images{
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 16px;
+    width: 90px ;
+    height: 50px;
+    
+}
+
+
+#circle {
+    width: 20px;
+    height: 20px;
+    background: #00b9e6;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 100px;
+}
+
+#circle2 {
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+
+/*  Друга сторінка*/
+
+
+.check{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    margin: 30px auto 10px auto;
+    width: 850px;
+    height: 540px;
+    background: #fff;
+    border: 2px solid #cdcdcd;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    
+}
+
+#miniheader{
+    display: block;
+    position: absolute;
+    background: #00b9e6;
+    width: 847px;
+    height: 120px;
+    border-radius: 7px 7px 0 0;
+    -webkit-border-radius: 7px 7px 0 0;
+    -moz-border-radius: 7px 7px 0 0;
+}
+
+.images1{
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    width: 100px ;
+    height: 60px;
+    
+}
+
+.minifooter4{
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90px;
+    width: 846px;
+    background: #fff;
+    border-top: 2px solid #cdcdcd;
+    border-radius:0 0 7px 7px;
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+}
+
+#knop4{
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    color: #00b9e6;
+}
+
+
+.content{
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 10px 5px 5px;
+    margin: 10px;  
+    overflow-y: auto;
+    height: 360px;
+    width: 850px;
 }
 
 
@@ -333,5 +449,5 @@ footer{
 }
 .jspDrag {
    width: 4px;
-   background-color: #db4437; */
-}
+   background-color: #db4437; 
+} */

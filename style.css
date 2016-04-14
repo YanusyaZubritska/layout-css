@@ -51,7 +51,7 @@ table {
 
 
 html {
-	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+	min-height:100%; 
 }
 
 #header{
@@ -59,7 +59,7 @@ html {
     background: #fff;
     font-size: 36px;
     box-sizing: border-box;
-    padding: 35px 35px;
+    padding: 20px 20px;
     margin: auto;
     box-shadow: 0 1px 6px 2px rgba(0,0,0,0.5);
 }
@@ -81,7 +81,7 @@ body {
 #documents{
     display: inline-block;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 20px;
     text-align: left;
     margin: 20px 5px;
     height: 600px;
@@ -91,6 +91,7 @@ body {
     background: #fff;
     position: relative;
     border-radius: 7px;
+    overflow-y: auto;
 }
 
 
@@ -103,9 +104,21 @@ body {
     text-align:left;
     position: relative;
     padding: 10px;
+    
 }
 
-.minifuter{
+.spus1{
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 10px 5px 5px;
+    margin: 10px;  
+    overflow-y: auto;
+    height: 375px;
+    width: 320px;
+}
+
+.minifooter{
     box-sizing: border-box;
     position: absolute;
     right: 0;
@@ -138,7 +151,7 @@ body {
 #lincs{
     display: inline-block;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 20px;
     text-align: left;
     margin: 20px 5px;
     height: 600px;
@@ -163,8 +176,18 @@ body {
     padding: 10px;
 }
 
+.spus2{
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 10px 5px 5px;
+    margin: 10px;  
+    overflow-y: auto;
+    height: 375px;
+    width: 320px;
+}
 
-.minifuter2{
+.minifooter2{
     box-sizing: border-box;
     position: absolute;
     right: 0;
@@ -197,7 +220,7 @@ body {
 #science_lab{
     display: inline-block;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 20px;
     text-align: left;
     margin: 20px 5px;
     height: 600px;
@@ -221,8 +244,18 @@ body {
     padding: 10px;
 }
 
+.spus3{
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 10px 5px 5px;
+    margin: 10px;  
+    overflow-y: auto;
+    height: 375px;
+    width: 320px;
+}
 
-.minifuter3{
+.minifooter3{
     box-sizing: border-box;
     position: absolute;
     right: 0;
@@ -246,6 +279,7 @@ body {
 #knop3:hover{
     cursor: pointer;
 }
+/**************************/
 
 
 
@@ -253,17 +287,16 @@ body {
 
 
 
-
-.spus{
-    box-sizing: border-box;
-    font-size: 14px;
-    text-align: left;
-    padding: 5px 10px 5px 5px;
-    margin: 10px;  
-}
 
 h5{
     font-size: 16px;
+    color: #aaa;
+    line-height: 35px;
+}
+
+p{
+    font-size: 13px;
+    color: #c7c7c7;
 }
 
 h4{
@@ -273,8 +306,32 @@ h4{
     bottom: 20px;
 }
 
-futer{
+footer{
     box-sizing: border-box;
     display: block;
     height: 50px;
+}
+
+#test{
+    display: inline-block;
+    position: relative;
+    height: ;
+    width: ;
+}
+
+
+
+
+/*Полоса прокрутки
+
+.jspVerticalBar {
+   width: 4px;
+}
+.jspTrack {
+   width: 4px;
+   background-color:none;
+}
+.jspDrag {
+   width: 4px;
+   background-color: #db4437; */
 }

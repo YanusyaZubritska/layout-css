@@ -15,9 +15,9 @@
  <link href="css/bootstrap.css" rel="stylesheet">
  <link rel="stylesheet"  href="style.css" />
  <link rel="stylesheet"  href="script.js" />
-
+ 
 <title>Your test</title>
-    <div id = "header"><img src = "images/3.png." id = "test"></images>
+<div id = "header"><img src = "images/3.png." id = "test"></images>
     </div>
 </head>
 
@@ -110,36 +110,69 @@
        <input id = "knop3" type="button" value="ADD ALL" onclick="invert(this.form.list)">
                 </form>
         <script type="text/javascript">
-                 function invert(field) {
-                    for (i=0; i<field.length; i++) {
-                    if (field[i].checked==true) field[i].checked=false;
-                    else field[i].checked=true;
-                    }
-                }
+                    function invert(field) {
+for (i=0; i<field.length; i++) {
+if (field[i].checked==false) { field[i].checked=true;}
+else  { 
+    field[i].checked=false;}
+}
+}
+
+            
             </script>
         </div>
-    </div>   
+    </div>
     
     
     
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>  
-<script src="js/bootstrap.js"></script>    
+    
+    <div class ="col-md-6">
+       <a href="#spoiler-1" data-toggle ="collapse" class="btn btn-primary spoiler collapsed">Text</a>
+           <div class="collapse" id="spoiler-1">
+              
+               <div class="check">
+          
+          <div id="miniheader">
+              <img src="images/C.png." alt="" class="images1">
+          </div>
+          <div class="content">
+              
+            
+ 
+
+
+              
+              
+              
+              
+          </div>
+          <div class="minifooter4">
+              <form action="" method = "post">
+            <input id = "knop4" type="submit" value="SEND">
+        </form>
+          </div>
+      </div>
+               
+               
+           </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>  
+ <script src="js/bootstrap.js"></script> 
 </body>
 
 
-
-
-
 <footer>
-
-<div class="move_block">
-        <form>
-            <input id="circle" type="button" />
-            <input id="circle2" type="button" onclick="javascript:window.location='index_2.html'" />
-        </form>
-</div>
-<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
-
 </footer>
 </html>

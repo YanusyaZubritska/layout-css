@@ -113,7 +113,7 @@ body {
     box-sizing: border-box;
     font-size: 14px;
     text-align: left;
-    padding: 5px 10px 5px 5px;
+    padding: 5px 10px 30px 5px;
     margin: 10px;  
     overflow-y: auto;
     height: 375px;
@@ -184,7 +184,7 @@ body {
     box-sizing: border-box;
     font-size: 14px;
     text-align: left;
-    padding: 5px 10px 5px 5px;
+    padding: 5px 10px 30px 5px;
     margin: 10px;  
     overflow-y: auto;
     height: 375px;
@@ -254,7 +254,7 @@ body {
     box-sizing: border-box;
     font-size: 14px;
     text-align: left;
-    padding: 5px 10px 5px 5px;
+    padding: 5px 10px 30px 5px;
     margin: 10px;  
     overflow-y: auto;
     height: 375px;
@@ -295,6 +295,7 @@ body {
 
 
 h5{
+    text-indent: 13px;
     font-size: 13px;
     color: #aaa;
     line-height: 35px;
@@ -303,6 +304,7 @@ h5{
 p{
     font-size: 11px;
     color: #c7c7c7;
+    text-indent: 24px;
 }
 
 h4{
@@ -310,6 +312,12 @@ h4{
     position: absolute;
     left: 20px;
     bottom: 20px;
+}
+
+
+
+h3,h5{
+    display: inline-block;
 }
 
 footer{
@@ -438,16 +446,16 @@ footer{
 
 
 
-/*Полоса прокрутки
 
-.jspVerticalBar {
-   width: 4px;
+
+
+.niceCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url(images/Checkbox.png);
 }
-.jspTrack {
-   width: 4px;
-   background-color:none;
+.niceCheck input {
+display: none;
 }
-.jspDrag {
-   width: 4px;
-   background-color: #db4437; 
-} */

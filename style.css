@@ -118,6 +118,8 @@ body {
     overflow-y: auto;
     height: 375px;
     width: 320px;
+    scrol-track-color: none;
+    
 }
 
 .minifooter{
@@ -367,6 +369,10 @@ footer{
 
 
 
+
+
+
+
 /*  Друга сторінка*/
 
 
@@ -446,16 +452,82 @@ footer{
 
 
 
-
-
-
-.niceCheck {
-width: 17px;
-height: 17px;
-display: inline-block;
-cursor: pointer;
-background: url(images/Checkbox.png);
+.form{
+    box-sizing: border-box;
+    position: relative;
+    top: 120px;
 }
-.niceCheck input {
-display: none;
+
+.user{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+
+.username{
+    width: 350px ;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #cdcdcd;
+    padding: 10px 0,0,0;
+    font-size: 16px;
+}
+
+.username:hover{
+    border: none;
+    border-bottom: 2px solid #00b9e6;   
+}
+
+.username:hover{
+    border: none;
+    border-bottom: 2px solid #00b9e6;   
+}
+
+.email{
+    width: 350px ;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #cdcdcd;
+    padding: 10px 0,0,0;
+    font-size: 16px;
+}
+
+.email:hover{
+    border: none;
+    border-bottom: 2px solid #00b9e6;   
+}
+
+
+#us{
+    text-indent: 0;
+    color: #cdcdcd ;
+    font-size: 12px;
+}
+
+.mas{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.massage{
+    width: 700px ;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #cdcdcd;
+
+    font-size: 16px;
+}
+
+.massage:hover{
+    border: none;
+    border-bottom: 2px solid #00b9e6;   
+}
+
+.spoiler:after{
+    content: " [ REMOVE ALL ]";
+}
+
+a.spoiler.collapsed:after{
+    content: " [ ADD ALL ]";
 }

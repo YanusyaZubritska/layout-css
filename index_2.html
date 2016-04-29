@@ -2,11 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8"> 
-<link rel="stylesheet" type="text/css" href="style.css" />
-
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<script src="script.js"> </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+ <link href="css/bootstrap.css" rel="stylesheet">
+ <link rel="stylesheet"  href="style.css" />
 <title>Your test</title>
     <div id = "header"><img src = "images/3.png." id = "test"></images>
     </div>
@@ -20,13 +23,34 @@
           </div>
           <div class="content">
               
+              <div class="subscribe">
+                 <form class="form" action="" method="post" name="forma">
+                   <div class="user"><p id="us">Name</p><input type="text" class="username" name="name" placeholder="User Name"></div>
+                   <div class="user"><p id="us">Email</p><input type="email" class="email" name="mail" placeholder="Email"> </div>
+                   <div class="mas"><input type="text" class="massage" name="mass" placeholder="Massage text..."> </div>              
+              </div>              
           </div>
           <div class="minifooter4">
-              <form action="" method = "post">
-            <input id = "knop4" type="submit" value="SEND">
+            <input id = "knop4" type="submit" value="SEND" onClick="drob1()">
         </form>
           </div>
-      </div>      
+      </div>   
+        
+              
+
+    <script language="JavaScript"> 
+            function drob1(){ 
+            txt2="Ваше ім'я : "; 
+            txt3=" Ваш Еmail : "; 
+            txt4=" Ваше повідомлення : "; 
+            alert(txt2+document.forma.name.value+". \n"+txt3+document.forma.mail.value+". \n"+txt4 + document.forma.mass.value); 
+            } 
+    </script>
+
+
+
+
+
 </body>
 
 <footer>
@@ -37,7 +61,7 @@
                 <input id="circle" type="button"  />
             </form>
 </div>
-<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+<!--<script type="text/javascript" src="jquery.touchSwipe.min.js"></script> -->
 
 </footer>
 </html>

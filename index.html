@@ -4,17 +4,12 @@
 <meta charset="utf-8"> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
  <link href="css/bootstrap.css" rel="stylesheet">
  <link rel="stylesheet"  href="style.css" />
- <link rel="stylesheet"  href="script.js" />
 
 <title>Your test</title>
     <div id = "header"><img src = "images/3.png." id = "test"></images>
@@ -22,10 +17,11 @@
 </head>
 
 <body>
+      
     <div id ="documents">
     <div class = "doc"> <h4>Documents</h4> <img src="images/D.png" alt="" class="images">       
       </div>
-       <div class = "spus1">
+       <div class = "spus1" >
            <form name="select_all" method="post">                
             <label><h3><input type="checkbox" name="list" value="1"/><h3></h3><h5>Article Name</h5></label><p>Authors, name of edition,publishing year,</p> <p>(more info?)</p>
             <label><h3><input type="checkbox" name="list" value="2"/><h3></h3><h5>Article Name</h5></label><p>Authors, name of edition,publishing year,</p> <p>(more info?)</p>
@@ -53,8 +49,9 @@
         <script type="text/javascript">
                  function invert(field) {
                     for (i=0; i<field.length; i++) {
-                    if (field[i].checked==true) field[i].checked=false;
+                    if (field[i].checked==true) field[i].checked=false; getElementById('knop1')
                     else field[i].checked=true;
+                        
                     }
                 }
             </script>
@@ -120,11 +117,7 @@
         </div>
     </div>   
     
-    
-    
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>  
-<script src="js/bootstrap.js"></script>    
+  
 </body>
 
 
@@ -139,7 +132,6 @@
             <input id="circle2" type="button" onclick="javascript:window.location='index_2.html'" />
         </form>
 </div>
-<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
 
 </footer>
 </html>
